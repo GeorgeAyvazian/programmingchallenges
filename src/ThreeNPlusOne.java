@@ -115,7 +115,7 @@ public class ThreeNPlusOne
 
         private static List<Pair<Integer, Integer>> readInput()
         {
-                try (FileInputStream fileInputStream = new FileInputStream("input.txt"))
+                try (FileInputStream fileInputStream = new FileInputStream("inputThreeNPlusOne.txt"))
                 {
                         StringBuilder stringBuilder = new StringBuilder();
                         final byte[] buffer = new byte[256];
